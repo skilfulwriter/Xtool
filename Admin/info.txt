@@ -1,0 +1,13 @@
+后台密码爆破工具
+
+webcrack
+简介：WebCrack是一款web后台弱口令/万能密码批量检测工具
+使用：在工具中导入后台地址即可进行自动化检测
+
+hydra
+简介：一款非常强大的暴力破解工具
+使用：hydra -l admin -P /usr/share/wordlists/rockyou.txt 10.10.180.175 http-post-form "/Account/login.aspx?...”
+
+loginbrute
+简介：使用python的selenium库对存在验证码的后台进行爆破
+使用：python3 selenium_loginbrute.py
